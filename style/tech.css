@@ -184,6 +184,7 @@
 .rating-contant{
     max-width: 1200px;
     margin: 0 auto;
+    padding: 0 16px;
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     gap: 80px;
@@ -204,6 +205,74 @@
 }
 
 
+/* techwave section all css  */
+.techwave{
+    max-width: 1600px;
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+    background-color: #230E3D;
+    padding-top: 20px;
+    padding-bottom: 80px;
+}
+.techwave-title{
+    text-align: center;
+    margin-bottom: 40px;
+    margin-top: 120px;
+}
+.techwave-contant{
+    max-width: 1200px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    gap: 30px;
+    margin: 0 auto;
+    padding: 0 16px;
+}
+#card{
+    /* border: 1px solid red; */
+    border-radius: 40px;
+    background-color: #351165;
+    padding: 40px;
+}
+.card-icon{
+    margin: 16px 0 8px 0;
+}
+#img-1{
+    margin: 107px 0 0 0;
+}
+.card-title{
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #FFFFFF;
+    margin: 8px 0;
+}
+.card-bio{
+    font-size: 1rem;
+    line-height: 20px;
+    color: #cccccc;
+    margin: 8px 0;
+}
+.card-1{
+    grid-column: span 1;
+    grid-row: span 2;
+}
+.card-2{
+    grid-column: span 2;
+    grid-row: span 1;
+}
+.card-3{
+    grid-column: span 2;
+    grid-row: span 1;
+}
+.card-4{
+    grid-column: span 2;
+    grid-row: span 1;
+}
+.card-5{
+    grid-column: span 1;
+    grid-row: span 1;
+}
 
 
 
