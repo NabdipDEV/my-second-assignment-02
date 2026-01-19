@@ -384,3 +384,45 @@
     -webkit-text-fill-color: #fff;
 }
 
+/* footer all css */
+.footer{
+    max-width: 1600px;
+    margin: 0 auto;
+    background-image: url(../assets/footer-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+
+}
+#footer-logo{
+    font-size: 4rem;
+    padding-top: 100px;
+    margin-bottom: 16px;
+}
+.footer-contant{
+    max-width: 1360px;
+    margin: 0 auto;
+    align-items: center;
+    justify-content: center;
+}
+.social-name{
+    color: #FFFFFF;
+}
+.footer-social{
+    display: flex;
+    gap: 24px;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 16px;
+}
+.social-item{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    cursor: pointer;
+}
+.copy-right{
+    color: #cccccc; 
+    padding-bottom: 120px; 
+}
