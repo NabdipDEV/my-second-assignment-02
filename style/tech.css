@@ -6,23 +6,30 @@
 
  /* Share Css */
 
+.display-flax{
+    display: flex;
+}
+
 .section-all{
     max-width: 1600px;
     margin: 0 auto;
     justify-content: center;
     align-items: center;
     text-align: center;
-    /* background-color: #1A0B2E; */
+}
+.section-title{
+    font-size: 3rem;
+    font-weight: bold;
+    color: #FFFFFF;
 }
 
-.display-flax{
-    display: flex;
-}
+
 .gradient-text{
   background: linear-gradient(90deg, #F7E93F, #FB09B4, #9100F8);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
+
 .btn{
     padding: 12.5px 16px;
     background: linear-gradient(60deg, #F7E93F, #FB09B4, #9100F8);
@@ -48,22 +55,27 @@
 
 .navber{
     margin: 0 auto;
-    padding: 16px 200px;
+    padding: 16px 0;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-evenly;
     background-color: #1A0B2E;
+    border-bottom: 0.5px solid #412567;
 }
+
 .logo{
     color: #FFFFFF;
 }
+
 .nav-menu{
     list-style: none;
     gap: 32px;
 }
+
 .nav-name{
     text-decoration: none;
     color: #FFFFFF;
 }
+
 .mobile-menu{
     display: none;
 }
@@ -83,10 +95,37 @@
 
 .banner-contant{
     max-width: 550px;
-    margin: 101px 525px;
+    margin: 0 auto;
+    padding: 100px 20px;
     align-items: center;
     justify-content: center;
     text-align: center;
+}
+
+.img-contant{
+    width: 350px;
+    height: 350px;
+    background-image: url(../assets/hero-circle.png);
+    border-radius: 50%;
+    margin: 0 auto;
+    align-items: center;
+    justify-content: center;  
+}
+.banner-img{
+    width: 116px;
+    padding-top: 80px;
+}
+
+.new-btn{
+    position: relative;
+    bottom: -70px;
+    right: -140px;
+    background-color: #00FF88;
+    color: #1A0B2E;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 8px 16px;
+    border-radius: 20px;
 }
 
 .banner-titel{
@@ -101,36 +140,6 @@
     margin-bottom: 24px;
 }
 
-.img-contant{
-    position: relative;
-    width: 350px;
-    height: 350px;
-    margin: 0 auto;
-    background-image: url(../assets/hero-circle.png);
-    background-size: 350px 350px; /* image size control */
-    background-position: center;
-    margin-bottom: 40px;  
-}
-
-.banner-img{
-    width: 116px;
-    position: absolute; 
-    align-items: center; 
-    top: 25%;
-    left: 34%;
-}
-
-.new-btn{
-    position: absolute;
-    top: 20px;
-    right: 23px;
-    background-color: #00FF88;
-    color: #1A0B2E;
-    font-size: 18px;
-    font-weight: bold;
-    padding: 8px 16px;
-    border-radius: 20px;
-}
 
 .btn-2{
     padding: 12.5px 16px;
@@ -141,9 +150,58 @@
     cursor: pointer;
 }
 
+/* About SEction all css */
 
+.about{
+    margin: 0 auto;
+    background-color: #1A0B2E;
+    padding-top: 20px;
+    padding-bottom: 80px;
+}
+.about-contant{
+    max-width: 1200px;
+    margin: 0 auto;
+    margin-bottom: 80px;
+    /* border: 1px solid red; */
+}
+.about-title{
+    margin-bottom: 16px;
+}
 
+.about-bio{
+    font-size: 1rem;
+    color: #FFFFFF;
+    padding: 0 16px;
+    line-height: 30px;
+}
 
+.hr-line{
+    max-width: 1200px;
+    margin: 0 auto 80px;
+    border: 0.5px solid #412567;
+}
+
+.rating-contant{
+    max-width: 1200px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 80px;
+}
+.rateing-box{
+    max-width: 240px;
+}
+.rating-point{
+    font-size: 3rem;
+    font-weight: bold;
+    color: #00FF88;
+    margin-bottom: 16px;
+}
+.rating-bio{
+    font-size: 1rem;
+    line-height: 20px;
+    color: #FFFFFF;
+}
 
 
 
