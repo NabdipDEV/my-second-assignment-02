@@ -46,6 +46,12 @@
     border: none;
     border-radius: 20px;
     cursor: pointer;
+    transition: background 0.4s ease;
+}
+.btn:hover{
+    background: linear-gradient(90deg, #9100F8, #FB09B4, #F7E93F);
+    color: #3e0078;
+    font-size: 14.5px;
 }
 
 .card-title{
@@ -132,12 +138,20 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    overflow: hidden;           
+    overflow: hidden;  
+    transition: 0.3s;        
+}
+.img-contant:hover{
+    box-shadow: 0 15px 30px rgba(255, 0, 149, 0.406);
 }
 
 .banner-img{
     width: 116px;
     padding: 0;
+    transition: 0.8s;
+}
+.banner-img:hover{
+    transform: rotate(360deg);
 }
 
 .new-btn{
@@ -150,8 +164,15 @@
     font-weight: bold;
     padding: 8px 16px;
     border-radius: 20px;
+    cursor: pointer;
+    transition: 0.3s;
 }
-
+.new-btn:hover{
+    background-color: #00ff8800;
+    color: #00FF88;
+    border: 1px solid #00FF88;
+    
+}
 .banner-titel{
     font-size: 5rem;
     font-weight: bold;
@@ -172,8 +193,12 @@
     border: 0.5px solid #00FF88;
     border-radius: 20px;
     cursor: pointer;
+    transition: 0.3s;
 }
-
+.btn-2:hover{
+    background-color: #00FF88;
+    color: #020202;
+}
 /* About SEction all css */
 
 .about{
@@ -256,6 +281,11 @@
     border-radius: 40px;
     background-color: #351165;
     padding: 40px;
+    border-left: 4px solid transparent;
+    transition: 0.3s;
+}
+#card:hover{
+    border-left-color: #00FF88;
 }
 .card-icon{
     margin: 16px 0 8px 0;
@@ -316,6 +346,13 @@
     border-radius: 20px;
     align-items: center;
     justify-content: center;
+    transition: 0.3s;
+}
+.episodes-card:hover{
+    box-shadow: 0 10px 25px rgba(20, 20, 20, 0.434);
+    transform: translateY(-5px);
+    border-bottom: 5px solid #00FF88;
+
 }
 .card-box{
     padding: 24px;
@@ -351,6 +388,10 @@
 }
 .clint-img{
     padding: 40px;
+    transition: 0.3s;
+}
+.clint-img:hover{
+    transform: scale(1.05);
 }
 .meet-box-contant{
     margin: 0 auto;
