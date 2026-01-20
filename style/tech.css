@@ -403,17 +403,23 @@
     font-weight: bold;
     color: #00FF88;
 }
+.container{
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 24px; /* LEFT–RIGHT GAP */
+}
+
 .meet-contant{
     padding-bottom: 120px;
 }
 .meet-box{
-    max-width: 1200px;
     border-radius: 10px;
     background-color: #230E3D;
     display: flex;
     margin: 0 auto;
     margin-top: 40px;
     align-items: center;
+   padding: 0 16px 120px;
 }
 .clint-img{
     padding: 40px;
@@ -534,6 +540,10 @@
 
  /* banner */
 
+.banner{
+    background-image: url(../assets/mob.bac.png);
+}
+
 .banner-contant{
     padding: 60px 16px;
 }
@@ -609,7 +619,7 @@
   /* meet box */
 
 .meet-box{
-    max-width: 300px;
+    /* max-width: 300px; */
     flex-direction: column;
     text-align: center;
     padding: 16px;
@@ -632,9 +642,7 @@
     padding-top: 24px;
 }
 .footer{
-    background-size: 170% auto;  
-    background-position: center;
-    background-color: #201042;
+    background-image: url(../assets/mob-footer.png);
 }
 .footer-social{
     gap: 16px;
@@ -645,4 +653,106 @@
     padding-bottom: 50px;
 }
 
+}
+
+
+/* Medium ( 577px – 992px) */
+
+@media screen and (min-width: 577px) and (max-width: 992px) {
+
+    
+.navber{
+    padding: 16px 32px;
+    justify-content: space-between;
+}
+
+.nav-menu{
+    gap: 20px;
+}
+
+    
+.banner-contant{
+    padding: 80px 20px;
+}
+
+.banner-titel{
+    font-size: 3.5rem;
+}
+
+.img-contant{
+    width: 260px;
+    height: 260px;
+}
+
+.banner-img{
+    width: 80px;
+}
+
+.new-btn{
+    bottom: -60px;
+    right: -110px;
+    font-size: 16px;
+}
+   
+.about-contant{
+    padding: 0 24px;
+}
+
+.rating-contant{
+    grid-template-columns: repeat(2, 1fr);
+    gap: 50px;
+    text-align: center;
+}
+  
+.techwave-contant{
+    grid-template-columns: repeat(2, 1fr);
+    gap: 24px;
+}
+
+.card-1,
+.card-2,
+.card-3,
+.card-4,
+.card-5{
+    grid-column: span 1;
+    grid-row: span 1;
+}
+
+#img-1{
+    margin: 0;
+}
+
+    
+.card-contant{
+    flex-wrap: wrap;
+}
+
+.episodes-card{
+    max-width: 48%;
+}
+
+    
+.meet-box{
+    max-width: 90%;
+    gap: 20px;
+    padding: 20px;
+}
+
+.clint-img{
+    width: 220px;
+    padding: 20px;
+}
+
+.clint-name{
+    font-size: 1.8rem;
+}
+
+    
+#footer-logo{
+    font-size: 3rem;
+}
+
+.footer-social{
+    gap: 20px;
+}
 }
